@@ -14,7 +14,7 @@ Verify C2PA Manifests: Check the authenticity and integrity of digital assets by
 1. Clone the repository:
     ```sh
     git clone https://github.com/Manoj-Katta/My_C2PA_Tool.git
-    cd project-name
+    cd My_C2PA_Tool
     ```
 
 2. Install dependencies:
