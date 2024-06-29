@@ -1,0 +1,65 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make the body take the full height of the viewport and use Flexbox to center content */
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Optional: Add a background color */
+}
+
+/* Container for the homepage */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visual appeal */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Style for the heading */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Style for the paragraph */
+p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+
+/* Style for individual buttons */
+input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  
+}
+
+/* Optional: Add hover and active states for buttons */
+input:hover {
+  background-color: #f0f0f0;
+}
+
+input:active {
+  background-color: #e0e0e0;
+}
+
+.verify,.home{
+  margin: 0.5rem;
+}
