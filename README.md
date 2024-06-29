@@ -50,10 +50,6 @@ This will start both the server and the client, making the application accessibl
 Use the frontend interface to upload your asset for adding the manifest or for verifying the manifest.
 
 
-## Screenshots
-Homepage
-
-![Homepage](https://drive.google.com/file/d/1neGJaD-CpBk20ELagVNQDoteGYy6I-La/view?usp=drive_link)
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
