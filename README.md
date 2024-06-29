@@ -1,70 +1,65 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# C2PA Manifest Adder and Verifier
 
-## Available Scripts
+This project provides a tool to add and verify C2PA manifests using the C2PA Node.js SDK. The tool enables users to securely attach provenance data to digital assets and verify the authenticity and integrity of these assets.
 
-In the project directory, you can run:
+Features
 
-### `npm start`
+Add C2PA Manifests: Embed provenance data into digital assets.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Verify C2PA Manifests: Check the authenticity and integrity of digital assets by verifying their embedded manifests.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/project-name.git
+    cd project-name
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
 
-### `npm run build`
+    ```sh
+    cd ..
+    cd server
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Starting the Application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To start the application, you need to run both the backend and the frontend separately:
 
-### `npm run eject`
+1. Start the backend server:
+```sh
+cd server
+npm start
+```
+2. In a separate terminal, start the frontend client:
+```sh
+cd ..
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This will start both the server and the client, making the application accessible at http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Use the frontend interface to upload your asset for adding the manifest or for verifying the manifest.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
+Homepage
 
-## Learn More
+![Homepage](https://drive.google.com/file/d/1neGJaD-CpBk20ELagVNQDoteGYy6I-La/view?usp=drive_link)
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[MIT](https://choosealicense.com/licenses/mit/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+C2PA Node.js SDK - The SDK used for creating and verifying C2PA manifests
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
